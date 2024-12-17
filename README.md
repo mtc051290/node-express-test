@@ -4,6 +4,10 @@ A **simple RESTful API** built with **Node.js** and **Express.js** for managing 
 
 ---
 
+![Tasks API Overview](https://i.imgur.com/oqLQ3ji.png)
+
+---
+
 ## 📋 **Table of Contents**
 
 - [Features](#features)
@@ -40,16 +44,15 @@ A **simple RESTful API** built with **Node.js** and **Express.js** for managing 
 To set up and run this project on your local machine:
 
 1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/mtc051290/node-express-test
-    cd node-express-test
-    ```
+   ```bash
+   git clone https://github.com/mtc051290/node-express-test
+   cd node-express-test
+   ```
 
 2. **Install dependencies**:
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ---
 
@@ -70,14 +73,13 @@ This will run the server using **nodemon**, which automatically restarts the ser
 The API is documented using **Swagger UI**.
 
 1. Start the server with:
-
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 2. Open your browser and go to:
 
-    👉 **Swagger UI**: [http://localhost:8000/api-docs](http://localhost:8000/api-docs)
+   👉 **Swagger UI**: [http://localhost:8000/api-docs](http://localhost:8000/api-docs)
 
 ---
 
@@ -85,19 +87,18 @@ The API is documented using **Swagger UI**.
 
 The following scripts are available in the project:
 
-| Script         | Command                | Description                                |
-| -------------- | ---------------------- | ------------------------------------------ |
-| `start`        | `npm start`            | Start the server.                          |
-| `dev`          | `npm run dev`          | Start the development server with nodemon. |
-| `format`       | `npm run format`       | Format all files using Prettier.           |
-| `format:check` | `npm run format:check` | Check file formatting without modifying.   |
+| Script          | Command                   | Description                                  |
+|-----------------|---------------------------|----------------------------------------------|
+| `start`         | `npm start`               | Start the server.                            |
+| `dev`           | `npm run dev`             | Start the development server with nodemon.   |
+| `format`        | `npm run format`          | Format all files using Prettier.             |
+| `format:check`  | `npm run format:check`    | Check file formatting without modifying.     |
 
 ---
 
 ## 🔥 **API Endpoints**
 
 ### Base URL
-
 The base URL for all endpoints is:
 
 ```http
@@ -106,33 +107,31 @@ http://localhost:8000/tasks
 
 ### Endpoints Overview
 
-| Method   | Endpoint | Description              |
-| -------- | -------- | ------------------------ |
-| `GET`    | `/`      | Retrieve all tasks.      |
-| `POST`   | `/`      | Create a new task.       |
-| `PUT`    | `/{id}`  | Update an existing task. |
-| `DELETE` | `/{id}`  | Delete a task.           |
+| Method | Endpoint     | Description              |
+|--------|--------------|--------------------------|
+| `GET`  | `/`          | Retrieve all tasks.      |
+| `POST` | `/`          | Create a new task.       |
+| `PUT`  | `/{id}`      | Update an existing task. |
+| `DELETE`| `/{id}`     | Delete a task.           |
 
 ---
 
 ### Example JSON Schema for a Task
 
 **Task Object**:
-
 ```json
 {
-    "id": 1,
-    "title": "My Task",
-    "completed": false
+  "id": 1,
+  "title": "My Task",
+  "completed": false
 }
 ```
 
 **Request Body for Create/Update Task**:
-
 ```json
 {
-    "title": "Updated Task Title",
-    "completed": true
+  "title": "Updated Task Title",
+  "completed": true
 }
 ```
 
@@ -152,3 +151,4 @@ http://localhost:8000/tasks
 ## 👨‍💻 **Author**
 
 Created by **mtc590**.
+
