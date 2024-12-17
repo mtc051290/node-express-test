@@ -8,18 +8,6 @@ A **simple RESTful API** built with **Node.js** and **Express.js** for managing 
 
 ---
 
-## 📋 **Table of Contents**
-
-- [Features](#features)
-- [Installation](#installation)
-- [Development](#development)
-- [Swagger UI](#swagger-ui)
-- [Scripts](#scripts)
-- [API Endpoints](#api-endpoints)
-- [Technologies](#technologies)
-
----
-
 ## ✨ **Features**
 
 - RESTful API for managing tasks (CRUD operations: Create, Read, Update, Delete).
